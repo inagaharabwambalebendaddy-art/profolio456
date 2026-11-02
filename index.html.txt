@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO META TAGS -->
+    <title>BWAMBALE INAGAHARA BENDADDY | Portfolio & Innovation Hub</title>
+    <meta name="title" content="BWAMBALE INAGAHARA BENDADDY | Portfolio & Innovation Hub">
+    <meta name="description" content="Official website and portfolio of Bwambale Inagahara Bendaddy. Discover engineering blueprints, creative cinema projects, technology innovations, and visual media.">
+    <meta name="keywords" content="Bwambale Inagahara Bendaddy, Bwambale Bendaddy, Engineering, Cinema, Portfolio, Technology, Innovations">
+    <meta name="author" content="Bwambale Inagahara Bendaddy">
+    <meta name="robots" content="index, follow">
+
+    <!-- OPEN GRAPH / FACEBOOK / LINKEDIN -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bwambalebendaddy.com/">
+    <meta property="og:title" content="BWAMBALE INAGAHARA BENDADDY | Official Portfolio">
+    <meta property="og:description" content="Explore engineering blueprints, media, and technology innovations by Bwambale Inagahara Bendaddy.">
+
+    <!-- TWITTER META TAGS -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bwambalebendaddy.com/">
+    <meta property="twitter:title" content="BWAMBALE INAGAHARA BENDADDY | Portfolio">
+    <meta property="twitter:description" content="Explore engineering blueprints, media, and technology innovations by Bwambale Inagahara Bendaddy.">
+
+    <!-- JSON-LD STRUCTURED DATA FOR GOOGLE INDEXING -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bwambale Inagahara Bendaddy",
+      "alternateName": ["Bwambale Bendaddy", "Inagahara Bendaddy"],
+      "url": "https://bwambalebendaddy.com",
+      "jobTitle": "Innovator & Creator",
+      "sameAs": [
+        "https://facebook.com",
+        "https://linkedin.com",
+        "https://github.com"
+      ]
+    }
+    </script>
+
+    <!-- TAILWIND CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            500: '#4f46e5',
+                            600: '#4338ca',
+                            700: '#3730a3',
+                            900: '#1e1b4b',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FONTS & ICONS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .dark .glass {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300 min-h-screen flex flex-col">
+
+    <!-- NAVIGATION BAR -->
+    <header class="sticky top-0 z-50 glass border-b border-slate-200/80 dark:border-slate-800/80 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <!-- BRAND LOGO -->
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white font-bold text-lg shadow-md group-hover:scale-105 transition-transform">
+                    B
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
+                        BWAMBALE I. B.
+                    </span>
+                    <span class="text-[10px] text-indigo-600 dark:text-indigo-400 font-semibold tracking-wider uppercase">
+                        Portfolio & Hub
+                    </span>
+                </div>
+            </a>
+
+            <!-- DESKTOP NAVIGATION -->
+            <nav class="hidden md:flex items-center space-x-1">
+                <a href="#about" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">About</a>
+                <a href="#blueprints" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Blueprints</a>
+                <a href="#projects" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Projects</a>
+                <a href="#gallery" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Media</a>
+                <a href="#seo-simulator" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 text-indigo-600 dark:text-indigo-400 flex items-center gap-1 transition-colors">
+                    <i data-lucide="search" class="w-4 h-4"></i> SEO Preview
+                </a>
+                <a href="#contact" class="px-3 py-2 rounded-lg text-sm font-medium hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">Contact</a>
+            </nav>
+
+            <!-- RIGHT CONTROLS -->
+            <div class="flex items-center gap-2">
+                <!-- DARK MODE TOGGLE BUTTON -->
+                <button id="themeToggle" aria-label="Toggle Theme" class="p-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors">
+                    <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i>
+                    <i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i>
+                </button>
+
+                <!-- MOBILE MENU BUTTON -->
+                <button id="mobileMenuBtn" aria-label="Open Mobile Menu" class="md:hidden p-2 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+                    <i data-lucide="menu" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU CONTAINER -->
+        <div id="mobileMenu" class="hidden md:hidden border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-2 pb-4 space-y-1">
+            <a href="#about" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
+            <a href="#blueprints" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Blueprints</a>
+            <a href="#projects" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+            <a href="#gallery" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Media</a>
+            <a href="#seo-simulator" class="block px-3 py-2 rounded-lg text-base font-medium text-indigo-600 dark:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800">SEO Preview</a>
+            <a href="#contact" class="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Contact</a>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO SECTION -->
+        <section class="relative overflow-hidden pt-12 pb-20 md:pt-20 md:pb-28">
+            <div class="absolute inset-0 -z-10 opacity-30 dark:opacity-20 pointer-events-none">
+                <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-full blur-3xl"></div>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- HERO CONTENT -->
+                    <div class="md:col-span-7 text-center md:text-left">
+                        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-xs font-semibold mb-6">
+                            <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+                            Official Web Identity & Portfolio
+                        </div>
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-none mb-6">
+                            BWAMBALE INAGAHARA <span class="bg-gradient-to-r from-indigo-600 to-violet-500 bg-clip-text text-transparent">BENDADDY</span>
+                        </h1>
+                        <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-2xl font-normal leading-relaxed">
+                            Engineering Innovator, Creative Visionary & Digital Pioneer. Designing solution blueprints, visual stories, and future-proof technologies.
+                        </p>
+                        
+                        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                            <a href="#seo-simulator" class="px-6 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm shadow-lg shadow-indigo-500/25 flex items-center gap-2 transition-all hover:-translate-y-0.5">
+                                <i data-lucide="search" class="w-4 h-4"></i> Test Google Search Status
+                            </a>
+                            <a href="#blueprints" class="px-6 py-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 text-slate-700 dark:text-slate-200 font-semibold text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5 shadow-sm">
+                                <i data-lucide="layers" class="w-4 h-4"></i> View Blueprints
+                            </a>
+                        </div>
+
+                        <!-- QUICK STATS -->
+                        <div class="grid grid-cols-3 gap-4 pt-10 mt-10 border-t border-slate-200 dark:border-slate-800/80">
+                            <div>
+                                <div class="text-2xl font-bold text-slate-900 dark:text-white">100%</div>
+                                <div class="text-xs text-slate-500 dark:text-slate-400">SEO Optimized</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-slate-900 dark:text-white">12+</div>
+                                <div class="text-xs text-slate-500 dark:text-slate-400">Engineering Designs</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-slate-900 dark:text-white">Global</div>
+                                <div class="text-xs text-slate-500 dark:text-slate-400">Searchable Identity</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROFILE TEXT CARD (REPLACED IMAGE PLACEHOLDER) -->
+                    <div class="md:col-span-5 flex justify-center">
+                        <div class="relative w-full max-w-md">
+                            <div class="absolute -inset-1.5 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl blur opacity-30 dark:opacity-40"></div>
+                            <div class="relative bg-white dark:bg-slate-900 rounded-3xl p-8 shadow-xl border border-slate-100 dark:border-slate-800 flex flex-col justify-between aspect-square">
+                                <div>
+                                    <div class="w-12 h-12 rounded-2xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-bold text-xl mb-4">
+                                        BIB
+                                    </div>
+                                    <h3 class="text-2xl font-extrabold text-slate-900 dark:text-white mb-2">Bwambale Inagahara Bendaddy</h3>
+                                    <p class="text-xs text-indigo-600 dark:text-indigo-400 font-semibold uppercase tracking-wider mb-4">
+                                        Creative Director & Innovator
+                                    </p>
+                                    <div class="space-y-2 text-xs text-slate-600 dark:text-slate-400">
+                                        <div class="flex items-center gap-2">
+                                            <i data-lucide="clapperboard" class="w-4 h-4 text-purple-500"></i>
+                                            <span>Young Movie Director & Filmmaker</span>
+                                        </div>
+                                        <div class="flex items-center gap-2">
+                                            <i data-lucide="user" class="w-4 h-4 text-emerald-500"></i>
+                                            <span>Everyday Creative & Nonchalant Visionary</span>
+                                        </div>
+                                        <div class="flex items-center gap-2">
+                                            <i data-lucide="layers" class="w-4 h-4 text-indigo-500"></i>
+                                            <span>Roylan Blueprint Architect</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 text-xs">
+                                    <div class="font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
+                                        <i data-lucide="image-plus" class="w-4 h-4 text-indigo-500"></i> Photo Container Ready
+                                    </div>
+                                    <div class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                                        Insert your personal photos here when back at home.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE SEARCH ENGINE SIMULATOR (SOLVES USER'S REQUEST) -->
+        <section id="seo-simulator" class="py-16 bg-slate-100 dark:bg-slate-900/60 border-y border-slate-200 dark:border-slate-800 transition-colors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-10">
+                    <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase">Interactive Search Simulator</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1 mb-3">
+                        How You Appear on Search Engines
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">
+                        Test how search engines like Google and Bing render Bwambale Inagahara Bendaddy's web results and indexed cards.
+                    </p>
+                </div>
+
+                <!-- SIMULATOR INTERFACE -->
+                <div class="max-w-4xl mx-auto bg-white dark:bg-slate-950 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-800 overflow-hidden">
+                    <!-- SEARCH ENGINE HEADER -->
+                    <div class="p-4 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex flex-wrap gap-4 items-center justify-between">
+                        <!-- TABS: GOOGLE vs BING vs TEXT CARDS -->
+                        <div class="flex rounded-lg bg-slate-200 dark:bg-slate-800 p-1 text-xs font-semibold">
+                            <button id="tabGoogle" onclick="switchSeoTab('google')" class="px-3 py-1.5 rounded-md bg-white dark:bg-slate-900 shadow text-slate-900 dark:text-white transition-all">
+                                Google Search
+                            </button>
+                            <button id="tabImages" onclick="switchSeoTab('images')" class="px-3 py-1.5 rounded-md text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
+                                Indexed Profiles
+                            </button>
+                            <button id="tabBing" onclick="switchSeoTab('bing')" class="px-3 py-1.5 rounded-md text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all">
+                                Bing Search
+                            </button>
+                        </div>
+
+                        <!-- MOCK SEARCH INPUT FIELD -->
+                        <div class="relative flex-grow max-w-md">
+                            <input type="text" id="simSearchInput" value="Bwambale Inagahara Bendaddy" class="w-full pl-9 pr-8 py-2 text-sm rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-2.5"></i>
+                            <button onclick="updateSimSearch()" class="absolute right-2 top-2 text-xs bg-indigo-600 text-white px-2 py-0.5 rounded hover:bg-indigo-700">Go</button>
+                        </div>
+                    </div>
+
+                    <!-- RESULT VIEWPORT -->
+                    <div class="p-6">
+                        
+                        <!-- VIEW 1: GOOGLE WEB RESULTS -->
+                        <div id="seoViewGoogle" class="space-y-6">
+                            <div class="text-xs text-slate-500">About 1,420,000 results (0.34 seconds)</div>
+                            
+                            <!-- MAIN RESULT CARD -->
+                            <div class="max-w-2xl">
+                                <div class="flex items-center gap-2 text-xs text-slate-700 dark:text-slate-400 mb-1">
+                                    <span class="w-4 h-4 rounded-full bg-indigo-600 flex items-center justify-center text-white text-[9px]">B</span>
+                                    <span>https://bwambalebendaddy.com</span>
+                                    <span>› profile</span>
+                                </div>
+                                <h3 class="text-xl text-blue-700 dark:text-blue-400 hover:underline cursor-pointer font-medium mb-1" id="simTitleRes">
+                                    BWAMBALE INAGAHARA BENDADDY | Portfolio & Innovation Hub
+                                </h3>
+                                <p class="text-sm text-slate-600 dark:text-slate-300 leading-normal" id="simDescRes">
+                                    Official website and portfolio of Bwambale Inagahara Bendaddy. Discover engineering blueprints, creative cinema projects, film direction, and technology innovations.
+                                </p>
+                            </div>
+
+                            <!-- SUB-LINKS / SITELINKS -->
+                            <div class="pl-4 border-l-2 border-indigo-500 space-y-3 max-w-2xl">
+                                <div class="grid grid-cols-2 gap-4 text-sm">
+                                    <div>
+                                        <a href="#blueprints" class="text-blue-700 dark:text-blue-400 hover:underline font-medium">Roylan Blueprints</a>
+                                        <p class="text-xs text-slate-500 dark:text-slate-400">View technical designs and structural innovations.</p>
+                                    </div>
+                                    <div>
+                                        <a href="#projects" class="text-blue-700 dark:text-blue-400 hover:underline font-medium font-medium">Movie Direction & Works</a>
+                                        <p class="text-xs text-slate-500 dark:text-slate-400">Discover creative media and cinema projects.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 2: INDEXED TEXT CARDS (NO IMAGE URLS) -->
+                        <div id="seoViewImages" class="hidden">
+                            <div class="text-xs text-slate-500 mb-4">Displaying indexed profile search cards for "<span class="font-semibold text-slate-700 dark:text-slate-300" id="queryLabel">Bwambale Inagahara Bendaddy</span>":</div>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                                <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+                                    <div>
+                                        <div class="w-8 h-8 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-bold text-sm mb-3">
+                                            <i data-lucide="clapperboard" class="w-4 h-4"></i>
+                                        </div>
+                                        <div class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Young Movie Director</div>
+                                        <div class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-3">Film concepts, visual directing, storytelling scripts, and cinema vision.</div>
+                                    </div>
+                                    <div class="text-[11px] text-indigo-600 dark:text-indigo-400 font-semibold flex items-center gap-1">
+                                        <i data-lucide="globe" class="w-3 h-3"></i> bwambalebendaddy.com/cinema
+                                    </div>
+                                </div>
+
+                                <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+                                    <div>
+                                        <div class="w-8 h-8 rounded-lg bg-purple-100 dark:bg-purple-950 text-purple-600 dark:text-purple-400 flex items-center justify-center font-bold text-sm mb-3">
+                                            <i data-lucide="smile" class="w-4 h-4"></i>
+                                        </div>
+                                        <div class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Everyday Nonchalant Persona</div>
+                                        <div class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-3">Real-life personal brand, modern lifestyle, and authentic presence.</div>
+                                    </div>
+                                    <div class="text-[11px] text-purple-600 dark:text-purple-400 font-semibold flex items-center gap-1">
+                                        <i data-lucide="user-check" class="w-3 h-3"></i> Verified Identity
+                                    </div>
+                                </div>
+
+                                <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex flex-col justify-between">
+                                    <div>
+                                        <div class="w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-sm mb-3">
+                                            <i data-lucide="layers" class="w-4 h-4"></i>
+                                        </div>
+                                        <div class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Roylan Blueprints</div>
+                                        <div class="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed mb-3">Technical schematics, systems architecture, and engineering designs.</div>
+                                    </div>
+                                    <div class="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">
+                                        <i data-lucide="cpu" class="w-3 h-3"></i> Technical Hub
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIEW 3: BING SEARCH RESULTS -->
+                        <div id="seoViewBing" class="hidden space-y-6">
+                            <div class="text-xs text-slate-500">Microsoft Bing Search Result Simulation</div>
+                            <div class="max-w-2xl border-l-4 border-teal-500 pl-4 py-1">
+                                <div class="text-xs text-teal-700 dark:text-teal-400 font-medium mb-1">https://bwambalebendaddy.com</div>
+                                <h3 class="text-xl text-teal-800 dark:text-teal-300 hover:underline cursor-pointer font-semibold mb-1">
+                                    BWAMBALE INAGAHARA BENDADDY - Official Website
+                                </h3>
+                                <p class="text-sm text-slate-600 dark:text-slate-300">
+                                    Discover portfolio details, project designs, innovation blueprints, and contact details for Bwambale Inagahara Bendaddy.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase">Background & Mission</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1 mb-6">
+                        Bridging Technical Precision & Creative Vision
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
+                        I am <strong class="text-slate-900 dark:text-white">BWAMBALE INAGAHARA BENDADDY</strong>, dedicated to developing structured engineering blueprints, interactive web solutions, and cinematic visual media. 
+                    </p>
+                    <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
+                        By integrating clear architectural frameworks with robust web standards, I build ideas that are performant, scalable, and fully indexable across global digital search engines.
+                    </p>
+
+                    <!-- KEY HIGHLIGHTS LIST -->
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-sm text-slate-700 dark:text-slate-200">Engineering Concept Design & Architectural Blueprints</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-sm text-slate-700 dark:text-slate-200">Cinema, Video & Visual Storytelling Production</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-sm text-slate-700 dark:text-slate-200">Search Engine Optimization (SEO) & Schema Structuring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILL / CAPABILITY CARDS -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+                        <i data-lucide="cpu" class="w-8 h-8 text-indigo-600 dark:text-indigo-400 mb-3"></i>
+                        <h3 class="font-bold text-slate-900 dark:text-white mb-1">Engineering</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">Technical schematics, systems logic, & CAD planning.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+                        <i data-lucide="film" class="w-8 h-8 text-purple-600 dark:text-purple-400 mb-3"></i>
+                        <h3 class="font-bold text-slate-900 dark:text-white mb-1">Cinema</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">Creative directing, video editing & storytelling.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+                        <i data-lucide="code-2" class="w-8 h-8 text-blue-600 dark:text-blue-400 mb-3"></i>
+                        <h3 class="font-bold text-slate-900 dark:text-white mb-1">Web Development</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">Modern responsive UI/UX and web app development.</p>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+                        <i data-lucide="search" class="w-8 h-8 text-emerald-600 dark:text-emerald-400 mb-3"></i>
+                        <h3 class="font-bold text-slate-900 dark:text-white mb-1">Search Visibility</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">Optimizing web assets for Google, Bing & DuckDuckGo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLUEPRINTS SECTION -->
+        <section id="blueprints" class="py-20 bg-slate-100 dark:bg-slate-900/40 border-t border-slate-200 dark:border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase">Technical Designs</span>
+                        <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1">
+                            Engineering Blueprints
+                        </h2>
+                    </div>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm max-w-md mt-2 md:mt-0">
+                        Detailed structural models and conceptual blueprints engineered by Bwambale Inagahara Bendaddy.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- BLUEPRINT CARD 1 -->
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                        <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center p-4">
+                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                            <i data-lucide="pen-tool" class="w-16 h-16 text-indigo-400"></i>
+                            <span class="absolute top-3 right-3 px-2 py-1 rounded bg-indigo-600/80 text-white text-[10px] font-mono">v1.0 Schematic</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Sustainable Energy Framework</h3>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                                Blueprint design detailing clean energy distribution models tailored for decentralized micro-grids.
+                            </p>
+                            <div class="flex items-center justify-between text-xs text-slate-500">
+                                <span>Category: Systems</span>
+                                <button onclick="openModal('Sustainable Energy Framework', 'Architectural blueprint focusing on micro-grid optimization, renewable energy inputs, and modern circuit layouts.')" class="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BLUEPRINT CARD 2 -->
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                        <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center p-4">
+                            <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#818cf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                            <i data-lucide="box" class="w-16 h-16 text-purple-400"></i>
+                            <span class="absolute top-3 right-3 px-2 py-1 rounded bg-purple-600/80 text-white text-[10px] font-mono">3D Structural</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Modular Urban Housing CAD</h3>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">
+                                Pre-fabricated modular housing unit plans maximizing spatial efficiency and climate resilience.
+                            </p>
+                            <div class="flex items-center justify-between text-xs text-slate-500">
+                                <span>Category: Architecture</span>
+                                <button onclick="openModal('Modular Urban Housing CAD', 'Modular structural design engineered for fast assembly, high structural integrity, and eco-friendly material selection.')" class="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BLUEPRINT CARD 3 -->
+        <!-- PROJECTS & MEDIA GALLERY SECTION (TEXT-BASED SHOWCASE CARDS) -->
+        <section id="gallery" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase">Visual Portfolio & Themes</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1 mb-3">
+                    Creative Visions & Media Profiles
+                </h2>
+                <p class="text-slate-600 dark:text-slate-400 text-sm">
+                    Text-based project modules ready for your personal photos to be attached.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- SHOWCASE CARD 1 -->
+                <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950/80 text-purple-700 dark:text-purple-300 text-xs font-semibold mb-4">
+                            <i data-lucide="film" class="w-3.5 h-3.5"></i> Cinema & Directing
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Young Movie Director</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                            Focusing on cinematic camera movements, scene pacing, dynamic storytelling, and high-impact visual media creation.
+                        </p>
+                    </div>
+                    <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-dashed border-slate-300 dark:border-slate-700 text-center">
+                        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-mono">[ Attach Director Photos Here ]</span>
+                    </div>
+                </div>
+
+                <!-- SHOWCASE CARD 2 -->
+                <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 text-xs font-semibold mb-4">
+                            <i data-lucide="smile" class="w-3.5 h-3.5"></i> Casual Persona
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Everyday Nonchalant Style</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                            Authentic lifestyle representation capturing genuine everyday moments, effortless demeanor, and personal brand identity.
+                        </p>
+                    </div>
+                    <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-dashed border-slate-300 dark:border-slate-700 text-center">
+                        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-mono">[ Attach Casual Photos Here ]</span>
+                    </div>
+                </div>
+
+                <!-- SHOWCASE CARD 3 -->
+                <div class="p-6 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 text-xs font-semibold mb-4">
+                            <i data-lucide="layers" class="w-3.5 h-3.5"></i> Technical Work
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Roylan Blueprint Designs</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+                            Architectural concepts, CAD schematics, and technical blueprints structured by Bwambale Inagahara Bendaddy.
+                        </p>
+                    </div>
+                    <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-dashed border-slate-300 dark:border-slate-700 text-center">
+                        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-mono">[ Attach CAD / Blueprint Files Here ]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT & SOCIAL CONNECTIONS SECTION -->
+        <section id="contact" class="py-20 bg-slate-100 dark:bg-slate-900/60 border-t border-slate-200 dark:border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto bg-white dark:bg-slate-900 rounded-3xl p-8 sm:p-10 border border-slate-200 dark:border-slate-800 shadow-lg text-center">
+                    <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 tracking-wider uppercase">Get In Touch</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mt-1 mb-4">
+                        Connect with Bwambale Inagahara Bendaddy
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm mb-8">
+                        Interested in collaborating on engineering blueprints, cinema projects, or technical innovations? Reach out directly.
+                    </p>
+
+                    <!-- DIRECT ACTION BUTTONS -->
+                    <div class="flex flex-wrap justify-center gap-4 mb-8">
+                        <button onclick="copyToClipboard('contact@bwambalebendaddy.com')" class="px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold flex items-center gap-2 transition-all shadow-md">
+                            <i data-lucide="mail" class="w-4 h-4"></i> Copy Email Address
+                        </button>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold flex items-center gap-2 transition-all">
+                            <i data-lucide="facebook" class="w-4 h-4 text-blue-600"></i> Facebook Profile
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-700 text-sm font-semibold flex items-center gap-2 transition-all">
+                            <i data-lucide="github" class="w-4 h-4"></i> GitHub Account
+                        </a>
+                    </div>
+
+                    <div id="toast" class="hidden text-xs text-emerald-600 dark:text-emerald-400 font-semibold">
+                        ✓ Copied to clipboard!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
+            <div>
+                © <span id="year"></span> <strong>BWAMBALE INAGAHARA BENDADDY</strong>. All rights reserved.
+            </div>
+            <div class="flex gap-4">
+                <a href="#seo-simulator" class="hover:underline">SEO Status</a>
+                <a href="#blueprints" class="hover:underline">Blueprints</a>
+                <a href="#about" class="hover:underline">Privacy & Identity</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DIALOG FOR BLUEPRINTS -->
+    <div id="detailModal" class="fixed inset-0 z-50 hidden bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 dark:hover:text-white">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+            <h3 id="modalTitle" class="text-xl font-bold text-slate-900 dark:text-white mb-2"></h3>
+            <p id="modalBody" class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-6"></p>
+            <button onclick="closeModal()" class="w-full py-2.5 rounded-xl bg-indigo-600 text-white font-semibold text-xs hover:bg-indigo-700 transition-colors">
+                Close Preview
+            </button>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR INTERACTIVITY AND THEME -->
+    <script>
+        // INITIALIZE LUCIDE ICONS
+        lucide.createIcons();
+
+        // SET FOOTER YEAR
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // DARK / LIGHT MODE TOGGLE
+        const themeToggleBtn = document.getElementById('themeToggle');
+        
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // MOBILE NAVIGATION MENU
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // SEO SEARCH ENGINE TAB SWITCHER
+        function switchSeoTab(tab) {
+            const vGoogle = document.getElementById('seoViewGoogle');
+            const vImages = document.getElementById('seoViewImages');
+            const vBing = document.getElementById('seoViewBing');
+
+            const btnG = document.getElementById('tabGoogle');
+            const btnI = document.getElementById('tabImages');
+            const btnB = document.getElementById('tabBing');
+
+            // Hide all
+            vGoogle.classList.add('hidden');
+            vImages.classList.add('hidden');
+            vBing.classList.add('hidden');
+
+            // Reset buttons
+            [btnG, btnI, btnB].forEach(b => {
+                b.className = "px-3 py-1.5 rounded-md text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all";
+            });
+
+            const activeBtnClass = "px-3 py-1.5 rounded-md bg-white dark:bg-slate-900 shadow text-slate-900 dark:text-white transition-all font-semibold";
+
+            if (tab === 'google') {
+                vGoogle.classList.remove('hidden');
+                btnG.className = activeBtnClass;
+            } else if (tab === 'images') {
+                vImages.classList.remove('hidden');
+                btnI.className = activeBtnClass;
+            } else if (tab === 'bing') {
+                vBing.classList.remove('hidden');
+                btnB.className = activeBtnClass;
+            }
+        }
+
+        // UPDATE SIMULATOR SEARCH QUERY
+        function updateSimSearch() {
+            const val = document.getElementById('simSearchInput').value || 'Bwambale Inagahara Bendaddy';
+            document.getElementById('simTitleRes').innerText = val + " | Portfolio & Innovation Hub";
+            document.getElementById('queryLabel').innerText = val;
+        }
+
+        // MODAL DIALOG CONTROLS
+        function openModal(title, text) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalBody').innerText = text;
+            document.getElementById('detailModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('detailModal').classList.add('hidden');
+        }
+
+        // COPY TO CLIPBOARD FUNCTION
+        function copyToClipboard(text) {
+            const tempInput = document.createElement('input');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const toast = document.getElementById('toast');
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
